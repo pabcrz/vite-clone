@@ -3,7 +3,7 @@ import viteLogo from "../../public/vite.svg";
 export default function Navbar() {
   return (
     <>
-      <header className="flex flex-row justify-between">
+      <header className="flex flex-row justify-between p-3">
         <a className="flex items-center gap-2">
           <img src={viteLogo} alt="vite-logo" className="h-6" />
           <span className="font-semibold">Vite</span>
